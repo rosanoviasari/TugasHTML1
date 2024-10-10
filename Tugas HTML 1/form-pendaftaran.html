@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+    <nav>
+        <a href="./home.html">kembali ke home</a>
+    </nav>
+
+    <section>
+        <div>
+            <h1>Formulir Pendaftaran Siswa</h1>
+
+            <form action="#">
+                <div>
+                    <label>Nama Calon Siswa :</label>
+                    <input type="text" />
+                </div>
+                <br />
+                <div>
+                    <label>Tempat/Tanggal Lahir :</label>
+                    <input type="date">
+                </div>
+                <br>
+                <div>
+                    <label >Agama :</label>
+                    <select>
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="budha">Budha</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="lainya">Lainya</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Alamat :</label>
+                    <textarea type="textarea"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label >No.Telp/Hp</label>
+                    <input type="number">
+                </div>
+                <br>
+                <div>
+                    <label for="">Jenis Kelamin :</label>
+                    <label>
+                        <input type="radio" name="jenkel" value="Laki-laki" id="laki-laki">
+                        Laki-laki
+                    </label>
+                    <label >
+                        <input type="radio" name="jenkel" value="Perempuan" id="perempuan">
+                        Perempuan
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>Ekstrakulikuler :</label>
+
+                    <label>
+                        <input type="checkbox" name="paskibra" value="paskibra" id="paskibra">
+                        Paskibra
+                    </label>
+                    <label>
+                        <input type="checkbox" name="futsal" value="futsal" id="futsal">
+                        Futsal
+                    </label>
+                    <label>
+                        <input type="checkbox" name="basket" value="basket" id="basket">
+                        Basket
+                    </label>
+                    <label>
+                        <input type="checkbox" name="renang" value="renang" id="renang">
+                        Renang
+                    </label>
+                    <label>
+                        <input type="checkbox" name="tari" value="tari" id="tari">
+                        Tari
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label>Pas Foto : </label>
+                    <input type="file">
+                </div>
+                <br>
+                <button type="button">Kirim</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
